@@ -1,16 +1,49 @@
 # FineTuneMLP_SA_Design
 Doctoral Thesis Project: FineTuneMLP_SA_Design
 
-Welcome to FineTuneMLP_SA_Design! This project is part of a doctoral thesis aimed at accelerating the modeling of Single Atom Catalytic Active Sites using machine learning techniques. The project focuses on fine-tuning backbone models using a small-sized dataset and has several key contributions to the field:
+Welcome to `FineTuneMLP_SA_Design`! 
+It provides data generation,training and evaluation code/data for ration design of single atom catalyst. This projects uses GemNet-OC20 + OC22 pretrained model delveloped in [Open Catalyst Project](https://opencatalystproject.org/) (GemNet-OC [[`arXiv`](https://arxiv.org/abs/2204.02782)] [[`code`](https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/gemnet_oc)])
+The project focuses on fine-tuning backbone models using a small-sized in-house generated dataset and has several key contributions to the field:
 
 ## Project Overview
 
-1. **Rational Design of SA Workflow**: We explore the promise of fine-tuning strategies that leverage small data to improve global optimization. We employ highly accelerated Genetic Algorithms (GA) using an accurate Multi-Layer Perceptron (MLP) as a surrogate model. Additionally, we provide two successful fine-tuning approaches for Pt/CeO2 and screening, which can serve as benchmarks for the research community.
+1. **Rational Design of SA Workflow**: We explore the promise of fine-tuning strategies that leverage small data to improve global optimization. We employ Genetic Algorithms (GA) using an accurate fine-tuned Machine learning potential (MLP) as a surrogate model.We provide two successful fine-tuning approaches for Pt/CeO2 and SA screening, which can serve as benchmarks for the research community.
 
-2. **New Dataset/Models specified on SA/oxide**: We have open-sourced our codes and database, enabling the wider research community to build improved models and accelerate the design of Single Atom Catalytic Active Sites. Our Graph Neural Network (GNN), fine-tuned on a state-of-the-art model, achieves accurate results with 100 times faster model training and reduced data requirements.
+2. **Dataset and Fine-tuned Models specified on SA/oxide**: We have open-sourced our codes and database, enabling the wider research community to build improved models and accelerate the design of Single Atom Catalytic Active Sites. 
 
-3. **Pioneering on Fine-tuning approach for Screening**: We demonstrate the results of fine-tuning experiments on a diverse subset of our in-house databases. Our approaches provide a generalizable screening workflow, and we publish a range of benchmark results to facilitate their use in future research.
 
-## Contributing and Support
+## Download dataset
 
-Feel free to open an issue or submit a pull request for any bug fixes, improvements, or new features.
+
+## Fine-tuned model weights
+
+We provide model weights for download
+
+## Acknowledgements
+
+- This codebase was mostly built based on [Open Catalyst Project](https://opencatalystproject.org/) 
+- This project is part of a doctoral thesis aimed at accelerating the modeling of Single Atom Catalytic Active Sites using machine learning potential. 
+
+
+## Citing `FineTuneMLP_SA_Design`
+
+If you use this codebase in your work, please consider citing the upcoming publication:
+
+```bibtex
+@article{ocp_dataset,
+    author = {Seokhyun Choung*, Wongyu Park* and Jeong Woo Han},
+    title = {Genetic Algorithm Framework for Accelerated Discovery of Global Minimum Configurations of Pt/CeO2 Catalytic Active Site Using Machine Learning Potential},
+    journal = {?},
+    year = {2024},
+    doi = {?},
+}
+```
+```bibtex
+@article{ocp_dataset,
+    author = {Seokhyun Choung*, Wongyu Park* and Jeong Woo Han},
+    title = {Rapid mapping of Stable and Active  Single Atom Active Site Motifs Accelerated by MLP based Automated Workflow},
+    journal = {?},
+    year = {2024},
+    doi = {?},
+}
+```
