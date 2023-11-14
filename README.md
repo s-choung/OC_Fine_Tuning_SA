@@ -31,7 +31,7 @@ If you use this codebase in your work, please consider citing the upcoming publi
 
 ```bibtex
 @article{ocp_dataset,
-    author = {Seokhyun Choung*, Wongyu Park* and Jeong Woo Han},
+    author = {Seokhyun Choung†, Wongyu Park† and Jeong Woo Han*},
     title = {Genetic Algorithm Framework for Accelerated Discovery of Global Minimum Configurations of Pt/CeO2 Catalytic Active Site Using Machine Learning Potential},
     journal = {?},
     year = {2024},
@@ -40,7 +40,7 @@ If you use this codebase in your work, please consider citing the upcoming publi
 ```
 ```bibtex
 @article{ocp_dataset,
-    author = {Seokhyun Choung*, Wongyu Park* and Jeong Woo Han},
+    author = {Seokhyun Choung†, Wongyu Park† and Jeong Woo Han*},
     title = {Rapid mapping of Stable and Active  Single Atom Active Site Motifs Accelerated by MLP based Automated Workflow},
     journal = {?},
     year = {2024},
